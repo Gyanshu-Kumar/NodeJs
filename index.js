@@ -11,6 +11,10 @@
 //2. Inbuilt Module -> The Module which is inbuilt in javascript. // Eg - http module
 //3. External Module -> This type of module are installed externally.
 
-const add = require("./mymodule.js")
-console.log(add)
-console.log(add(5, 6))
+const operations = require("./mymodule.js")
+
+console.log(typeof operations)
+console.log(operations)
+
+console.log(operations.add(2, 3))
+console.log(operations.prod(5, 6))
